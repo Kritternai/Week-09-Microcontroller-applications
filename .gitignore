@@ -1,0 +1,87 @@
+# ESP-IDF Build Files
+build/
+**/build/
+*.bin
+*.elf
+*.map
+
+# ESP-IDF Configuration
+sdkconfig.old
+sdkconfig.defaults
+
+# Dependencies
+dependencies.lock
+managed_components/
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+log/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+
+# OS Files
+Thumbs.db
+.DS_Store
+._*
+
+# Flash Arguments (optional - uncomment if you don't want to track these)
+# *-flash_args
+# flasher_args.json
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.ninja
+build.ninja
+
+# GDB
+gdbinit/
+
+# Compiled Object files
+*.o
+*.obj
+*.a
+
+# Preprocessor output
+*.i
+*.ii
+*.s
+
+# Assembly listings
+*.lst
+
+# Libraries
+*.lib
+
+# Shared objects
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
